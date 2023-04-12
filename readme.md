@@ -1,5 +1,7 @@
 # TSA Coding Practice
 
 A collection of coding problems.
-(For 2022-23: c++14 and nodejs 8.10)
+
 Each code file contains a prompt and sample solution.
+
+(For 2022-23: `C++ 14` and `Node.js 8.10`)
