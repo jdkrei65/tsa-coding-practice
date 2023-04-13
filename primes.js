@@ -19,14 +19,14 @@
  * 
  * SAMPLE TESTS
  * (Sample 1)
- * 426381               <-- Input
- * not a prime          <-- Output
- * 1 2 311 457 426381   <-- Output
+ * 426381                               <-- Input
+ * not a prime                          <-- Output
+ * 1 3 311 457 933 1371 142127 426381   <-- Output
  * 
  * (Sample 2)
- * 17                   <-- Input
- * prime                <-- Output
- * 1 17                 <-- Output
+ * 17                                   <-- Input
+ * prime                                <-- Output
+ * 1 17                                 <-- Output
  * 
  */
 
@@ -55,7 +55,8 @@ readline.question('', (value) => {
 
     const factors = [1];
 
-    const max_factor = Math.sqrt(input);
+    // No use checking anything more than half the number
+    const max_factor = input / 2;
     for (let i = 2; i <= max_factor; i++) {
         if (input % i === 0) {
             factors.push(i);
