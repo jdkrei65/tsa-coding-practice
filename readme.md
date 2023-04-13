@@ -8,6 +8,6 @@ The problems are
 - Problem 1: Pangrams - `pangram.js`
 - Problem 2: Roman Numerals - `roman.cpp`
 - Problem 3: Clock Hands - `clock.cpp`
-- Problem 4: Prime Numbers - `prime.cpp`
+- Problem 4: Prime Numbers - `primes.js`
 
 (For 2022-23: `C++ 14` and `Node.js 8.10`)
