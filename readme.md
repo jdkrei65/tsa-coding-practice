@@ -9,5 +9,6 @@ The problems are
 - Problem 2: Roman Numerals - `roman.cpp`
 - Problem 3: Clock Hands - `clock.cpp`
 - Problem 4: Prime Numbers - `primes.js`
+- Problem 5: Parentheses - `parentheses.txt`
 
 (For 2022-23: `C++ 14` and `Node.js 8.10`)

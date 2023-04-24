@@ -1,0 +1,30 @@
+PROBLEM 5 - PARENTHESES
+Create a program that finds all of the groups of parentheses in a
+given string. For the purpose of this problem, a parenthesis group is
+zero or more characters inside parentheses - '(' and ')'.
+
+Groups may contain any character, and other sub-groups - eg '( abc1 (2def))'
+
+You may assume:
+- The input contains only the characters a-z, A-Z, 0-9, and ( and )
+- The input is less than 50 characters
+- All opening parentheses will have a matching closing parenthesis
+- The groups of parentheses will be nested no more than 10 groups deep
+
+Your program should find all of the groups and sub groups, and print
+all of the groups, including the parentheses, in left-to-right order
+in which they appear.
+
+SAMPLE TESTS
+[Sample 1]
+hi (how (are) you)?     <-- INPUT
+(how (are) you)         <-- OUTPUT
+(are)                   <-- OUTPUT
+
+[Sample 2]
+this (is a (nested) parentheses) ooh (what (the heck))?     <-- INPUT
+(is a (nested) parentheses)                                 <-- OUTPUT
+(nested)                                                    <-- OUTPUT
+(what (the heck))                                           <-- OUTPUT
+(the heck)                                                  <-- OUTPUT
+
